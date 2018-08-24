@@ -1,0 +1,78 @@
+﻿@using MovieDetail.Models.Data;
+@model List<MovieList>
+@model MovieViewModel
+
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "MovieDetailPartial";
+}
+
+<h2>Movie Details</h2>
+
+<html>
+<head>
+    <meta name="viewport" content="movies" />
+    <title>Movie Detail</title>
+
+</head>
+
+<body>
+    <form id="Details">
+        <div>
+            <table class="table table-bordered table-responsive table hover">
+                <tr>
+                    <th>MovieData</th>
+                    <th>MovieName</th>
+                    <th>ReleaseYear</th>
+                    <th>Genere</th>
+                </tr>
+                @foreach (var movieData in Model)
+                {
+
+
+                    <tr>
+                        <td>@movieData.MovieId</td>
+                        <td>@movieData.MovieName</td>
+                        <td>@movieData.ReleaseYear</td>
+                        <td>@movieData.Genere</td>
+                    </tr>
+                }
+
+            </table><br /><br />
+            Search a Movie by its id:
+            <input type="text" asp-for="@Model.MovieId"><br/>
+
+
+        </div>
+    </form>
+    <br/>
+           <div>
+               <button type="button" class="btn btn-primary" value="Submit" data-attr="submit">Search</button>
+           </div>
+   
+
+</body>
+
+</html>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $('[data-attr="submit"]').on('click', function () {
+        $.ajax(
+            {
+                url: "/Movie/MovieDetailPartial",
+                type: "POST",
+                data: $('#Details').serialize(),
+                success: function (response) {
+                    console.log(response);
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+    });
+</script>
+
+
