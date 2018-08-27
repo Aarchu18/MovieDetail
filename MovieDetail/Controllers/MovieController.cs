@@ -1,24 +1,23 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Microsoft.AspNetCore.Mvc;
 using MovieDetail.Models.Data;
-using System;
 using System.Collections.Generic;
+using System;
 
 namespace MovieDetail.Controllers
 {
     public class MovieController : Controller
     {
+        MovieViewModel movieViewModel = new MovieViewModel();
+        List<MovieList> movieListModel;
         public IActionResult Index()
         {
-            List<MovieList> movieData = GetMovieDetail();
-
-            return View(movieData);
+            return View(movieViewModel);
         }
-        MovieViewModel movieViewModel = new MovieViewModel();
-        List<MovieList> movieDataView;
         public MovieController()
         {
-            movieViewModel.MovieList = GetMovieDetail();
-            movieDataView = GetMovieDetail();
+            movieViewModel.MoviesList = GetMovieDetail();
+            movieListModel = GetMovieDetail();
         }
         public List<MovieList> GetMovieDetail()
         {
@@ -27,24 +26,23 @@ namespace MovieDetail.Controllers
         }
 
         [HttpPost]
-        public IActionResult MovieDetailPartial(MovieList model)
+        public IActionResult Index(MovieViewModel model)
         {
             var movieBindedData = $"{model.MovieId}";
-            int movieID = Convert.ToInt32(movieBindedData);
-            List<MovieList> movieData = SearchByID(movieID);
-            movieViewModel.MovieList = movieData;
+            int movieId = Convert.ToInt32(movieBindedData);
+            List<MovieList> movieData = SearchById(movieId);
+            movieViewModel.MoviesList = movieData;
             Index();
-
-            return Json(movieBindedData);
+            return Json(movieViewModel);
         }
-        private List<MovieList> SearchByID(int movieBindedData)
+        public List<MovieList> SearchById(int movieBindedData)
         {
             List<MovieList> movieData = new List<MovieList>();
-            foreach (MovieList item in movieDataView)
+            foreach (MovieList data in movieListModel)
             {
-                if (item.MovieId == movieBindedData)
+                if (data.MovieId == movieBindedData)
                 {
-                    movieData.Add(item);
+                    movieData.Add(data);
                 }
             }
             return movieData;

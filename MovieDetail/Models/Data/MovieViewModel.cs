@@ -9,7 +9,7 @@ namespace MovieDetail.Models.Data
     {
         
             public int MovieId { get; set; }
-            public List<MovieList> MovieList { get; set; }
+            public List<MovieList> MoviesList { get; set; }
         
     }
 }
