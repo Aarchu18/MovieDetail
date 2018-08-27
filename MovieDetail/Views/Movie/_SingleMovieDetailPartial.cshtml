@@ -1,0 +1,25 @@
+﻿@model MovieDetail.Models.Data.MovieList;
+
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<table class="table table-bordered table-responsive table hover">
+    <tr>
+        <th>MovieData</th>
+        <th>MovieName</th>
+        <th>ReleaseYear</th>
+        <th>Genere</th>
+    </tr>
+
+
+    <tr>
+        <td>@Model.MovieId</td>
+        <td>@Model.MovieName</td>
+        <td>@Model.ReleaseYear</td>
+        <td>@Model.Genere</td>
+
+
+    </tr>
+
+</table>

@@ -32,3 +32,4 @@ C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\MovieDetail\MovieD
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\MovieDetail\MovieDetail\obj\Debug\netcoreapp2.1\MovieDetail.csproj.CopyComplete
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\MovieDetail\MovieDetail\obj\Debug\netcoreapp2.1\Razor\Views\Movie\_MovieDetailPartial.g.cshtml.cs
 C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\MovieDetail\MovieDetail\obj\Debug\netcoreapp2.1\Razor\Views\Movie\Index.g.cshtml.cs
+C:\Users\archana.kumari\Documents\Visual Studio 2017\Projects\MovieDetail\MovieDetail\obj\Debug\netcoreapp2.1\Razor\Views\Movie\_SingleMovieDetailPartial.g.cshtml.cs

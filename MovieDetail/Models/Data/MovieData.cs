@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
+
 
 namespace MovieDetail.Models.Data
 {
     public class MovieData
     {
-        public List<MovieList> GetMovieDetail()
+        public static List<MovieList> GetMovieDetail()
         {
-           return new List<MovieList>
+            return new List<MovieList>
            {
                new MovieList
                {
@@ -33,15 +35,14 @@ namespace MovieDetail.Models.Data
                    ReleaseYear = "2009",
                    Genere = "Action Thriller"
 
-
                },
                new MovieList
                {
+
                     MovieId = 4,
                     MovieName = "The Last Song",
                     ReleaseYear = "2010",
                     Genere = "Romantic Drama"
-
 
                },
                new MovieList
@@ -51,10 +52,15 @@ namespace MovieDetail.Models.Data
                     ReleaseYear = "2018",
                     Genere = "Action Spy"
 
-
                },
 
            };
         }
+
+            public static MovieList GetMovieById(int id)
+            {
+                return GetMovieDetail().Where(x => x.MovieId == id)?.FirstOrDefault();
+            }
+        }
     }
-}
+
