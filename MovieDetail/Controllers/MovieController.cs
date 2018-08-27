@@ -26,6 +26,21 @@ namespace MovieDetail.Controllers
             return NotFound();
 
         }
+         public IActionResult Insert()
+        {
+            
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Insert(MovieList movie)
+        {
+
+            return RedirectToAction("Insert", "Movie");
+        }
+        public IActionResult UpdateMovie()
+        {
+            return View();
+        }
 
     }
 }
