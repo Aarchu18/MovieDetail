@@ -59,7 +59,7 @@ using MovieDetail.Models;
             WriteLiteral("\r\n<div id=\"divInitialLoad\">\r\n    ");
             EndContext();
             BeginContext(144, 53, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "79a2c1ff3a0b447699535edcb07d5585", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5eefe62e7a3b4aa09513f67cd9610d26", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -84,7 +84,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = Model;
             WriteLiteral("\r\n</div>\r\n\r\n<div id=\"divAjaxLoad\">\r\n\r\n</div>\r\n\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(257, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e021818c3b6d45328dbedab4d4467940", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "42f1804e048544ea95da675ad66ab233", async() => {
                 BeginContext(263, 89, true);
                 WriteLiteral("\r\n\r\n    <meta name=\"viewport\" content=\"movieList\"/>\r\n    <title>Movie Details</title>\r\n\r\n");
                 EndContext();
@@ -104,7 +104,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = Model;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(363, 238, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "aef0ce066eea40cebaa34071e342a5a0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e7bfc34456364dcf875c05dd41c36696", async() => {
                 BeginContext(369, 225, true);
                 WriteLiteral("\r\n\r\n    <div>\r\n            Search a Movie by its id:\r\n            <input type=\"text\" id=\"SearchId\"><br/>\r\n    </div>\r\n\r\n    <button type=\"button\" class=\"btn btn-success\" value=\"Submit\" data-attr=\"submit\">Search</button>\r\n\r\n  ");
                 EndContext();
@@ -124,7 +124,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = Model;
             WriteLiteral("\r\n\r\n</html>\r\n\r\n");
             EndContext();
             BeginContext(616, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eba3a43a531c4500a74986832caa04cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20b95fd11fc947899c884349be72aeb4", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -142,7 +142,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = Model;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(669, 43, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c2f888bdb6d42d989989c9f75859fa2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85981fafbd9f45ccbe436a1035a58d63", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

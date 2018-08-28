@@ -3,5 +3,48 @@
     ViewData["Title"] = "UpdateMovieView";
 }
 
-<h2>UpdateMovieView</h2>
 
+<html>
+
+<body>
+    <form id="updateMovieForm" method="post">
+        <h2>Update Movie Details</h2><br />
+
+        <div class="container">
+            <div class="form-inline">
+                <label for="movieId"><b>Movie Id:</b></label>
+                <input type="number" min="0" class="form-control" placeholder="Enter MovieId" name="MovieId"><br /><br />
+
+            </div>
+            <div class="form-inline">
+                <label for="movieName"><b>Movie Name:</b></label>
+                <input type="text" class="form-control" placeholder="Enter MovieName:" name="MovieName"><br /><br />
+            </div>
+            <div class="form-inline">
+
+                <label for="releaseYear"><b> Release Year:</b></label>
+                <input type="text" class="form-control" placeholder="ReleaseYear" name="ReleaseYear"><br /><br />
+
+            </div>
+
+            <div class="form-inline">
+                <label for="genere"><b> Genere:</b></label>
+                <input type="text" class="form-control" placeholder="Genere" name="Genere" required><br /><br />
+            </div>
+
+        </div>
+
+    </form>
+
+    <div align="justify">
+        <button type="button" class="btn btn-danger" data-attr="closeMovie">Close</button>
+        <button type="submit" class="btn btn-success" data-attr="updateMovie">Update Movie</button>
+    </div>
+
+</body>
+
+</html>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script src="~/js/updateMovie.js"></script>
