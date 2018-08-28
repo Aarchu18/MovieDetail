@@ -21,3 +21,10 @@
         });
 });
 
+function Exit() {
+    var exit = confirm('Are You sure want to exit?');
+    if (exit) window.close();
+    window.location.href = "Index";
+}
+
+

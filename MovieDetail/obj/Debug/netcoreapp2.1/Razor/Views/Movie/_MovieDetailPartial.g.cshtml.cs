@@ -71,7 +71,7 @@ using MovieDetail.Models.Data;
             WriteLiteral("<h2>Movie Details</h2>\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(273, 95, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f937d112fabe42b7ba0ddee428f2ddc7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d9d3128b457140da8b6b6b2ad789a4ae", async() => {
                 BeginContext(279, 82, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"movies\" />\r\n    <title>Movie Detail</title>\r\n");
                 EndContext();
@@ -91,7 +91,7 @@ using MovieDetail.Models.Data;
             WriteLiteral("\r\n<p>\r\n    <button type=\"button\" class=\"btn btn-success\" onclick=\"redirectOnClick()\">\r\n        <span class=\"glyphicon glyphicon-plus\"></span>\r\n        New Movie\r\n    </button>\r\n</p>\r\n\r\n");
             EndContext();
             BeginContext(553, 548, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85edbd598f7045d1b766371f96b0af7b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b984aa0a93a54337a8a95de09ddf2a3c", async() => {
                 BeginContext(559, 229, true);
                 WriteLiteral("\r\n    <table class=\"table table-bordered table-responsive table hover\">\r\n        <tr>\r\n            <th>MovieData</th>\r\n            <th>MovieName</th>\r\n            <th>ReleaseYear</th>\r\n            <th>Genere</th>\r\n        </tr>\r\n");
                 EndContext();
