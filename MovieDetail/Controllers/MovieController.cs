@@ -27,14 +27,14 @@ namespace MovieDetail.Controllers
 
         }
 
-         public IActionResult Insert()
+         public IActionResult InsertMovie()
         {
             
             return View();
         }
 
         [HttpPost]
-        public IActionResult Insert(MovieList movie)
+        public IActionResult InsertMovie(MovieList movie)
         {
             movieList.Add(new MovieList
             {

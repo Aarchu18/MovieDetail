@@ -1,7 +1,7 @@
 ﻿$('[data-attr="createMovie"]').on('click', function () {
     $.ajax(
         {
-            url: "/Movie/Insert",
+            url: "/Movie/InsertMovie",
             type: "POST",
             data: $('#createMovieForm').serialize(),
             success: function (response) {

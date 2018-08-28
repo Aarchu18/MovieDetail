@@ -69,12 +69,12 @@ using MovieDetail.Models;
             WriteLiteral("\r\n\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(67, 1382, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4ff823eafc54cbc95114306cd4ff9ad", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "533bb0c53517411c837ec2ace563b1ba", async() => {
                 BeginContext(73, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(79, 1131, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaf3ebeaf8c34399b665a3e37444e7b0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48b06a12be704d9bb0653016b5f2b9bb", async() => {
                     BeginContext(120, 1083, true);
                     WriteLiteral(@"
         <h2>Update Movie Details</h2><br />
@@ -137,7 +137,7 @@ using MovieDetail.Models;
             WriteLiteral("\r\n\r\n</html>\r\n\r\n");
             EndContext();
             BeginContext(1464, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa003f99d04443a2b7ba65d142fcc18d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "401fbb0114dc46b69813eb95cb74b8cd", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -155,7 +155,7 @@ using MovieDetail.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(1519, 43, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eaa41e731b0e46df9f03b5a4893a6dff", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "296c66475da440b1a4406db6f0b285e8", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
