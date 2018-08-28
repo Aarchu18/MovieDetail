@@ -83,6 +83,7 @@ namespace MovieDetail.Controllers
         {
             bool isMovieFound = false;
             MovieList movieListData = new MovieList();
+
             foreach (var data in movieList)
             {
                 if (data.MovieId == movie.MovieId)
